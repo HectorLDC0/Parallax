@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Bitter:ital,wght@1,600&family=Manrope:wght@700&family=Montserrat:wght@200&family=Noto+Serif+Khojki&family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Bitter:ital,wght@1,600&family=Montserrat:wght@200&family=Noto+Serif+Khojki&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Bitter:ital,wght@1,600&family=Manrope:wght@700&family=Montserrat:wght@200&family=Noto+Serif+Khojki&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    color:#242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.titulo{
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3cm;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.mainDiv{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #DaC8B3;
+}
+
+.text{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.parallax-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url(huracan.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+.parallax-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url(Aventador.png);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+p{
+    line-height: 1.8;
+    font-family: 'Noto Serif Khojki', serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.fundo{
+    height: 300px;
+    width: 440px;
+}
+
+.fundou{
+    height: 260px;
+    width: 500px;
+}
+
+.fundoH{
+    height: 220px;
+    width: 480px;
+}
+
+.parallax-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url(URUS.PNG);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
